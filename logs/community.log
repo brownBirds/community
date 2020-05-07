@@ -1,0 +1,90 @@
+2020-04-20 17:22:31.590  INFO 1412 --- [restartedMain] com.boke.community.CommunityApplication  : Starting CommunityApplication on LAPTOP-VMLQ4ONA with PID 1412 (started by Wang Yuhao in C:\Users\Wang Yuhao\IdeaProjects\community)
+2020-04-20 17:22:31.590  INFO 1412 --- [restartedMain] com.boke.community.CommunityApplication  : No active profile set, falling back to default profiles: default
+2020-04-20 17:22:31.817  INFO 1412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-04-20 17:22:31.817  INFO 1412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-20 17:22:31.817  INFO 1412 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-20 17:22:31.833  INFO 1412 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2020-04-20 17:22:31.833  INFO 1412 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 241 ms
+2020-04-20 17:22:31.844  INFO 1412 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2020-04-20 17:22:31.854  INFO 1412 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2020-04-20 17:22:31.854  INFO 1412 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:C:/Users/Wang Yuhao/.m2'
+2020-04-20 17:22:31.922  INFO 1412 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-20 17:22:31.934  INFO 1412 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-20 17:22:31.964  INFO 1412 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-04-20 17:22:32.040  INFO 1412 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-20 17:22:32.051  INFO 1412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-04-20 17:22:32.052  INFO 1412 --- [restartedMain] com.boke.community.CommunityApplication  : Started CommunityApplication in 0.507 seconds (JVM running for 8407.213)
+2020-04-20 17:22:32.053  INFO 1412 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-20 17:22:42.596  INFO 1412 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-04-20 17:22:42.597  INFO 1412 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-20 17:22:42.597  INFO 1412 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2020-04-20 17:22:42.599  INFO 1412 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2020-04-20 17:22:47.789  INFO 3284 --- [restartedMain] com.boke.community.CommunityApplication  : Starting CommunityApplication on LAPTOP-VMLQ4ONA with PID 3284 (started by Wang Yuhao in C:\Users\Wang Yuhao\IdeaProjects\community)
+2020-04-20 17:22:47.791  INFO 3284 --- [restartedMain] com.boke.community.CommunityApplication  : No active profile set, falling back to default profiles: default
+2020-04-20 17:22:47.831  INFO 3284 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-20 17:22:47.831  INFO 3284 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-20 17:22:48.707  INFO 3284 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-04-20 17:22:48.713  INFO 3284 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-20 17:22:48.713  INFO 3284 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-20 17:22:48.778  INFO 3284 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-20 17:22:48.778  INFO 3284 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 946 ms
+2020-04-20 17:22:48.808  INFO 3284 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-20 17:22:48.924  INFO 3284 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-20 17:22:48.929  INFO 3284 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:C:/Users/Wang Yuhao/.m2'
+2020-04-20 17:22:49.285  INFO 3284 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-20 17:22:49.333  INFO 3284 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-20 17:22:49.441  INFO 3284 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-04-20 17:22:49.532  INFO 3284 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-20 17:22:49.567  INFO 3284 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-04-20 17:22:49.570  INFO 3284 --- [restartedMain] com.boke.community.CommunityApplication  : Started CommunityApplication in 2.06 seconds (JVM running for 3.063)
+2020-04-20 17:23:04.306  INFO 3284 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-20 17:23:04.308  INFO 3284 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-20 17:23:04.313  INFO 3284 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-04-20 17:23:04.714  WARN 3284 --- [http-nio-8081-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [361] milliseconds.
+2020-04-20 18:12:42.384  INFO 11000 --- [restartedMain] com.boke.community.CommunityApplication  : Starting CommunityApplication on LAPTOP-VMLQ4ONA with PID 11000 (started by Wang Yuhao in C:\Users\Wang Yuhao\IdeaProjects\community)
+2020-04-20 18:12:42.388  INFO 11000 --- [restartedMain] com.boke.community.CommunityApplication  : No active profile set, falling back to default profiles: default
+2020-04-20 18:12:42.455  INFO 11000 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-20 18:12:42.455  INFO 11000 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-20 18:12:43.655  INFO 11000 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-04-20 18:12:43.665  INFO 11000 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-20 18:12:43.665  INFO 11000 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-20 18:12:43.747  INFO 11000 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-20 18:12:43.748  INFO 11000 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1293 ms
+2020-04-20 18:12:43.782  INFO 11000 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-20 18:12:43.925  INFO 11000 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-20 18:12:43.931  INFO 11000 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:C:/Users/Wang Yuhao/.m2'
+2020-04-20 18:12:44.309  INFO 11000 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-20 18:12:44.406  INFO 11000 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-20 18:12:44.602  INFO 11000 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-04-20 18:12:44.746  INFO 11000 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-20 18:12:44.782  INFO 11000 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-04-20 18:12:44.785  INFO 11000 --- [restartedMain] com.boke.community.CommunityApplication  : Started CommunityApplication in 2.776 seconds (JVM running for 4.221)
+2020-04-20 18:14:12.988  INFO 11000 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-20 18:14:12.990  INFO 11000 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-20 18:14:13.001  INFO 11000 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-04-20 18:14:14.018  WARN 11000 --- [http-nio-8081-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [920] milliseconds.
+2020-04-20 18:17:27.958  INFO 14344 --- [restartedMain] com.boke.community.CommunityApplication  : Starting CommunityApplication on LAPTOP-VMLQ4ONA with PID 14344 (started by Wang Yuhao in C:\Users\Wang Yuhao\IdeaProjects\community)
+2020-04-20 18:17:27.961  INFO 14344 --- [restartedMain] com.boke.community.CommunityApplication  : No active profile set, falling back to default profiles: default
+2020-04-20 18:17:28.019  INFO 14344 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-20 18:17:28.019  INFO 14344 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-20 18:17:29.185  INFO 14344 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-04-20 18:17:29.194  INFO 14344 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-20 18:17:29.194  INFO 14344 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-20 18:17:29.271  INFO 14344 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-20 18:17:29.272  INFO 14344 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1252 ms
+2020-04-20 18:17:29.310  INFO 14344 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-20 18:17:29.426  INFO 14344 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-20 18:17:29.434  INFO 14344 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:C:/Users/Wang Yuhao/.m2'
+2020-04-20 18:17:29.825  INFO 14344 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-20 18:17:29.881  INFO 14344 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-20 18:17:30.023  INFO 14344 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-04-20 18:17:30.182  INFO 14344 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-20 18:17:30.249  INFO 14344 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-04-20 18:17:30.255  INFO 14344 --- [restartedMain] com.boke.community.CommunityApplication  : Started CommunityApplication in 2.631 seconds (JVM running for 3.885)
+2020-04-20 18:17:33.346  INFO 14344 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-20 18:17:33.348  INFO 14344 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-20 18:17:33.357  INFO 14344 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-04-20 18:17:33.876  WARN 14344 --- [http-nio-8081-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [469] milliseconds.
+2020-04-20 18:19:15.509  WARN 14344 --- [http-nio-8081-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.boke.community.exception.CustomizeException: 你找到问题不在了，要不要换个试试？]
+2020-04-20 21:56:59.084  WARN 14344 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h8m15s972ms186µs100ns).
+2020-04-20 23:35:46.177  WARN 14344 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m46s962ms905µs800ns).
